@@ -1,0 +1,20 @@
+{
+    "empty": "Sprites/TilePalettes/MainPalette/ground_empty",
+
+    "buildingPlace": "Sprites/TilePalettes/MainPalette/ground_building_place",
+
+    "roads":
+    [
+        "Sprites/TilePalettes/MainPalette/ground_road_bh",
+        "Sprites/TilePalettes/MainPalette/ground_road_h",
+        "Sprites/TilePalettes/MainPalette/ground_road_lb",
+        "Sprites/TilePalettes/MainPalette/ground_road_lt",
+        "Sprites/TilePalettes/MainPalette/ground_road_lv",
+        "Sprites/TilePalettes/MainPalette/ground_road_rb",
+        "Sprites/TilePalettes/MainPalette/ground_road_rt",
+        "Sprites/TilePalettes/MainPalette/ground_road_rv",
+        "Sprites/TilePalettes/MainPalette/ground_road_th",
+        "Sprites/TilePalettes/MainPalette/ground_road_v",
+        "Sprites/TilePalettes/MainPalette/ground_road_x"
+    ]
+}

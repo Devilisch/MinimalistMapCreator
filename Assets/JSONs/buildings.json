@@ -1,0 +1,53 @@
+{
+    "buildings":
+    [
+        {
+            "name": "Amphitheater",
+            "type": "Entertainment",
+            "description": "Sometimes famous people perform here.",
+            "resourcePath": "Sprites/TilePalettes/MainPalette/building_amphitheater"
+        },
+
+        {
+            "name": "Arena",
+            "type": "Entertainment",
+            "description": "Sometimes ordinary people die here.",
+            "resourcePath": "Sprites/TilePalettes/MainPalette/building_arena"
+        },
+
+        {
+            "name": "Campus",
+            "type": "Education",
+            "description": "Sometimes smart people study here.",
+            "resourcePath": "Sprites/TilePalettes/MainPalette/building_campus"
+        },
+
+        {
+            "name": "Market",
+            "type": "Food",
+            "description": "Sometimes rich people buy here.",
+            "resourcePath": "Sprites/TilePalettes/MainPalette/building_market"
+        },
+
+        {
+            "name": "Shrine",
+            "type": "Education",
+            "description": "Sometimes dead people become famous here.",
+            "resourcePath": "Sprites/TilePalettes/MainPalette/building_shrine"
+        },
+
+        {
+            "name": "Stable",
+            "type": "Work",
+            "description": "Sometimes heaps of manure are raked out from here.",
+            "resourcePath": "Sprites/TilePalettes/MainPalette/building_stable"
+        },
+
+        {
+            "name": "Workshop",
+            "type": "Work",
+            "description": "Sometimes hard workers come here sober.",
+            "resourcePath": "Sprites/TilePalettes/MainPalette/building_workshop"
+        }
+    ]
+}
