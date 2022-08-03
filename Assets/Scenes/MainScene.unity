@@ -155,6 +155,8 @@ MonoBehaviour:
   _scriptableObjectInstallers: []
   _monoInstallers:
   - {fileID: 1159430095}
+  - {fileID: 1071859413}
+  - {fileID: 842163884}
   _installerPrefabs: []
   _autoRun: 1
   OnPreInstall:
@@ -185,6 +187,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1159430096}
+  - {fileID: 1071859412}
+  - {fileID: 842163885}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -272,6 +276,98 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &842163883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 842163885}
+  - component: {fileID: 842163884}
+  m_Layer: 0
+  m_Name: TilemapInstaller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &842163884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842163883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f5e8fe0749bb6d42ad161397c7f5be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilemap: {fileID: 1532430173}
+--- !u!4 &842163885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842163883}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 261001767}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1071859411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1071859412}
+  - component: {fileID: 1071859413}
+  m_Layer: 0
+  m_Name: WindowsInstaller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1071859412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071859411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 261001767}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1071859413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071859411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a73ecabc039cd4bb684b02bf984248, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingPopup: {fileID: 7680194296646904931, guid: 4c1625d4f2921624eb6db645fb98ce7e, type: 3}
+  buildWindow: {fileID: 6432669169727417770, guid: c5cfdb2e2854a99468df1b3da68972d4, type: 3}
+  informationWindow: {fileID: 4164559354666733125, guid: 1664bbf65a50cf040aa91b1a4e92dccd, type: 3}
 --- !u!1 &1159430094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1430,11 +1526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6eb2385b89a08d4794486963c4c9acf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilemap: {fileID: 1532430173}
-  workshopTile: {fileID: 11400000, guid: d95e3f1de8473d44f82308f53ea471b0, type: 2}
-  builldWindow: {fileID: 6432669169727417770, guid: c5cfdb2e2854a99468df1b3da68972d4, type: 3}
-  builldingWindow: {fileID: 7680194296646904931, guid: 4c1625d4f2921624eb6db645fb98ce7e, type: 3}
-  informationWindow: {fileID: 4164559354666733125, guid: 1664bbf65a50cf040aa91b1a4e92dccd, type: 3}
 --- !u!1 &1982739601
 GameObject:
   m_ObjectHideFlags: 0
